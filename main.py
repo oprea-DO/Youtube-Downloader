@@ -20,6 +20,6 @@ def downloader():
   video.download()
   Label(root, text = "Download successful").pack()
 
-Button(root, command = downloader, text = "Download").pack
+Button(root, command = downloader, text = "Download").pack()
 
 root.mainloop()
